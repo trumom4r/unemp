@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Калькулятор</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="js/js.js"></script>
+    <header>
+        <h1>Калькулятор для розрахунку рівня безробіття</h1>
+        <h6>На даній сторінці можна провести розрахунки параметрів.</h6>
+    </header>
+    <nav>
+        <ul>
+            <b><li><a href="index.html">Головна</a></li>
+            <li><a href="about.html">Про нас</a></li>
+            <li><a href="calculator.html">Калькулятор</a></li>
+            <li><a href="sources.html">Корисні джерела</a></li></b>
+        </ul>
+    </nav>
+    <section>
+        <h2>Калькулятор рівня безробіття:</h2>
+        <p><img src="Screenshot_1.png" alt="Формула рівню безробіття"></p>
+        <p><label for="unemployed">Кількість безробітних:</label>
+        <input type="number" id="unemployed" name="unemployed">
+        </p>
+        <p><label for="workforce">Робоча сила:</label>
+        <input type="number" id="workforce" name="workforce">
+        </p>
+        <button type="button" onclick="calculate()">Вирахувати</button>
+        <p = id="result">Результат:</p>
+    </section>
+    <section>
+        <h2>Калькулятор кількості робочої сили:</h2>
+        <p><img src="Screenshot_2.png" alt="Формула робочої сили"></p>
+        <p><label for="employed">Зайняті:</label>
+        <input type="number" id="employed" name="employed">
+        </p>
+        <p><label for="working">Безробітні:</label>
+        <input type="number" id="working" name="working">
+        </p>
+        <button type="button1" onclick="calculate1()">Вирахувати</button>
+        <p = id="result1">Результат:</p>
+    </section>
+    <footer>
+        <p>© 2023. Створено студентом групи ЕК-31 Солдатенком Богданом.</p>
+    </footer>
+</body>
+
+</html>
