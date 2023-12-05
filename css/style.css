@@ -22,7 +22,7 @@ header {
 }
 
 nav ul {
-    background-color: #868686;
+    background-color: #8B9D77;
     list-style: none;
     padding: 0;
     margin: 0;
@@ -36,14 +36,14 @@ nav li {
 
 nav a {
     text-decoration: none;
-    color: #000000;
+    color: #E7EAEF;
     padding: 10px;
     border-radius: 3px;
     transition: background-color 0.3s ease;
 }
 
 nav a:hover {
-    background-color: #b4b4b4;
+    background-color: #37745B;
 }
 
 section {
