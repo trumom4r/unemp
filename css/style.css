@@ -16,7 +16,7 @@ body {
 header {
     min-height: 100px;
     background-color: #EDC5AB;
-    color: #fff;
+    color: #217074;
     text-align: center;
     padding: 1em 0;
 }
@@ -65,7 +65,7 @@ section p {
 
 footer {
     background-color: #EDC5AB;
-    color: #fff;
+    color: #217074;
     text-align: center;
     padding: 1em 0;
 }
