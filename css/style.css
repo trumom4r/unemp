@@ -15,7 +15,7 @@ body {
 
 header {
     min-height: 100px;
-    background-color: #FFA500;
+    background-color: #EDC5AB;
     color: #fff;
     text-align: center;
     padding: 1em 0;
@@ -64,7 +64,7 @@ section p {
 }
 
 footer {
-    background-color: #FFA500;
+    background-color: #EDC5AB;
     color: #fff;
     text-align: center;
     padding: 1em 0;
