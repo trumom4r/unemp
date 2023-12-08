@@ -64,6 +64,11 @@ section p {
     color: #323232;
 }
 
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
 footer {
     background-color: #EDC5AB;
     color: #217074;
