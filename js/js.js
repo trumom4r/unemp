@@ -4,7 +4,7 @@ function calculate() {
 
     var unemploymentRate = ( unemployedCount / workforceCount ) * 100;
 
-   if (unemployedCount < 0 || workforceCount < 0) {
+   if (unemployedCount < 0 || workforceCount < 0 || workforceCount < unemployedCount) {
         document.getElementById('result').innerHTML = "Результат: помилка";
     }
     else {
