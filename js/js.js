@@ -4,7 +4,12 @@ function calculate() {
 
     var unemploymentRate = ( unemployedCount / workforceCount ) * 100;
 
-    document.getElementById('result').innerHTML = "Результат: "+unemploymentRate.toFixed(2)+"%";
+   if (unemploymentRate < 0) {
+        document.getElementById('result').innerHTML = "Результат: помилка";
+    }
+    else {
+        document.getElementById('result').innerHTML = "Результат: "+unemploymentRate.toFixed(2)+"%";
+    }
 }
 
 function calculate1() {
@@ -13,7 +18,12 @@ function calculate1() {
 
     var workforceRate = employedCount + workingCount;
 
+    if (workforceRate < 0) {
+        document.getElementById('result1').innerHTML = "Результат: помилка";
+    }
+    else {
     document.getElementById('result1').innerHTML = "Результат: "+workforceRate.toFixed(0);
+    }
 }
 
 function submitQuiz() {
